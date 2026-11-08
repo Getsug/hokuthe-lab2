@@ -1,0 +1,9 @@
+Python:   3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]
+Platform: Windows-11-10.0.26300-SP0
+Runs per input: 5
+
+              n  result   median ms      min ms      max ms  description
+   999999999989  True        22.304      20.820      23.475  large prime
+   999966000289  False        0.001       0.001       0.001  999983**2, prime square
+   999999999745  False       21.809      20.559      24.493  5 * 199999999949, factor 5 found last
+  1000000000000  False        0.000       0.000       0.001  even, exits at step d

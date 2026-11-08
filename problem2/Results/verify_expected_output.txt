@@ -1,0 +1,36 @@
+-7, expected=False, A=False, B=False, OK
+0, expected=False, A=False, B=False, OK
+1, expected=False, A=False, B=False, OK
+2, expected=True, A=True, B=True, OK
+3, expected=True, A=True, B=True, OK
+4, expected=False, A=False, B=False, OK  [4 = 2 * 2]
+5, expected=True, A=True, B=True, OK
+6, expected=False, A=False, B=False, OK  [6 = 2 * 3]
+7, expected=True, A=True, B=True, OK
+9, expected=False, A=False, B=False, OK  [9 = 3 * 3]
+11, expected=True, A=True, B=True, OK
+25, expected=False, A=False, B=False, OK  [25 = 5 * 5]
+49, expected=False, A=False, B=False, OK  [49 = 7 * 7]
+91, expected=False, A=False, B=False, OK  [91 = 7 * 13]
+97, expected=True, A=True, B=True, OK
+121, expected=False, A=False, B=False, OK  [121 = 11 * 11]
+143, expected=False, A=False, B=False, OK  [143 = 11 * 13]
+7917, expected=False, A=False, B=False, OK  [7917 = 3 * 7 * 13 * 29]
+7919, expected=True, A=True, B=True, OK
+10201, expected=False, A=False, B=False, OK  [10201 = 101 * 101]
+999983, expected=True, A=True, B=True, OK
+1000000000000, expected=False, A=False, B=False, OK  [1000000000000 = 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 5 * 5 * 5 * 5 * 5 * 5 * 5 * 5 * 5 * 5 * 5 * 5]
+-1, expected=False, A=False, B=False, OK
+-2, expected=False, A=False, B=False, OK
+-3, expected=False, A=False, B=False, OK
+-4, expected=False, A=False, B=False, OK
+-25, expected=False, A=False, B=False, OK
+35, expected=False, A=False, B=False, OK  [35 = 5 * 7]
+169, expected=False, A=False, B=False, OK  [169 = 13 * 13]
+289, expected=False, A=False, B=False, OK  [289 = 17 * 17]
+361, expected=False, A=False, B=False, OK  [361 = 19 * 19]
+999966000289, expected=False, A=False, B=False, OK  [999966000289 = 999983 * 999983]
+999999999989, expected=True, A=True, B=True, OK
+999999999745, expected=False, A=False, B=False, OK  [999999999745 = 5 * 199999999949]
+Values checked: 34
+Mismatches:     0
