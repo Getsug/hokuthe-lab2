@@ -1,0 +1,35 @@
+euler_totient(1) = 1 (expected 1) PASS
+euler_totient(2) = 1 (expected 1) PASS
+euler_totient(3) = 2 (expected 2) PASS
+euler_totient(4) = 2 (expected 2) PASS
+euler_totient(5) = 4 (expected 4) PASS
+euler_totient(6) = 2 (expected 2) PASS
+euler_totient(10) = 4 (expected 4) PASS
+euler_totient(12) = 4 (expected 4) PASS
+euler_totient(13) = 12 (expected 12) PASS
+euler_totient(15) = 8 (expected 8) PASS
+euler_totient(36) = 12 (expected 12) PASS
+euler_totient(100) = 40 (expected 40) PASS
+euler_totient(0) raises ValueError (expected ValueError) PASS
+euler_totient(-1) raises ValueError (expected ValueError) PASS
+euler_totient(-5) raises ValueError (expected ValueError) PASS
+euler_totient(5.5) raises TypeError (expected TypeError) PASS
+euler_totient(5.0) raises TypeError (expected TypeError) PASS
+euler_totient(True) raises TypeError (expected TypeError) PASS
+euler_totient(None) raises TypeError (expected TypeError) PASS
+euler_totient('5') raises TypeError (expected TypeError) PASS
+euler_totient(Decimal('5')) raises TypeError (expected TypeError) PASS
+euler_totient(Fraction(5, 1)) raises TypeError (expected TypeError) PASS
+euler_totient(3) = 2 (p - 1) (expected 2) PASS
+euler_totient(5) = 4 (p - 1) (expected 4) PASS
+euler_totient(13) = 12 (p - 1) (expected 12) PASS
+euler_totient(3*4) = 4, euler_totient(3)*euler_totient(4) = 4 (expected 4) PASS
+euler_totient(5*6) = 8, euler_totient(5)*euler_totient(6) = 8 (expected 8) PASS
+euler_totient(4*25) = 40, euler_totient(4)*euler_totient(25) = 40 (expected 40) PASS
+euler_totient(2^2) = 2 (expected 2) PASS
+euler_totient(2^3) = 4 (expected 4) PASS
+euler_totient(3^2) = 6 (expected 6) PASS
+euler_totient(5^2) = 20 (expected 20) PASS
+euler_totient(3^3) = 18 (expected 18) PASS
+euler_totient(n) matches math.gcd reference for n = 1..200 (expected all equal) PASS
+34/34 passed
