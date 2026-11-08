@@ -1,0 +1,20 @@
+gcd(12, 8) = 4 (expected 4) PASS
+gcd(17, 5) = 1 (expected 1) PASS
+gcd(25, 25) = 25 (expected 25) PASS
+gcd(270, 192) = 6 (expected 6) PASS
+gcd(0, 7) = 7 (expected 7) PASS
+gcd(7, 0) = 7 (expected 7) PASS
+gcd(0, 0) = 0 (expected 0) PASS
+gcd(-12, 8) = 4 (expected 4) PASS
+gcd(12, -8) = 4 (expected 4) PASS
+gcd(-12, -8) = 4 (expected 4) PASS
+gcd(1000000007, 998244353) = 1 (expected 1) PASS
+gcd(1, 987654321) = 1 (expected 1) PASS
+gcd(100, 25) = 25 (expected 25) PASS
+gcd(832040, 514229) = 1 (expected 1) PASS
+gcd(1267650600228229401496703205376, 3541774862152233910272) = 1180591620717411303424 (expected 1180591620717411303424) PASS
+gcd(1.5, 2) raises TypeError (expected TypeError) PASS
+gcd('a', 2) raises TypeError (expected TypeError) PASS
+gcd(None, 2) raises TypeError (expected TypeError) PASS
+gcd(True, 2) raises TypeError (expected TypeError) PASS
+19/19 passed
