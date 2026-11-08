@@ -1,0 +1,21 @@
+Primary pair: p = 2003, q = 2011
+
+     p       q          pq     phi(pq)  (p-1)(q-1)  match?
+  2003    2011     4028033     4024020     4024020    True
+  2017    2027     4088459     4084416     4084416    True
+  2029    2039     4137131     4133064     4133064    True
+  2081    2083     4334723     4330560     4330560    True
+  2969    2999     8904031     8898064     8898064    True
+
+Timing (euler_totient, perf_counter):
+  (2003, 2011): 1.682 s
+  (2017, 2027): 1.773 s
+  (2029, 2039): 1.802 s
+  (2081, 2083): 1.847 s
+  (2969, 2999): 3.904 s
+  Total: 11.008 s
+
+Contrast case (not in table): (2011, 2011) is rejected because the primes are not distinct. For p = q, phi(p^2) = p(p-1) = 4042110, not (p-1)^2 = 4040100.
+
+Conclusion: for distinct primes p and q, phi(p) = p - 1 and phi(q) = q - 1, and phi is multiplicative on coprime arguments, so phi(pq) = (p-1)(q-1). Every computed value above agrees with this formula.
+All distinct-prime cases verified: PASS
