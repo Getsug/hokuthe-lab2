@@ -1,0 +1,24 @@
+test_below_two_is_zero (__main__.TestCountHelper.test_below_two_is_zero) ... ok
+test_counts_around_primes (__main__.TestCountHelper.test_counts_around_primes) ... ok
+test_build_rows (__main__.TestFullRange.test_build_rows) ... ok
+test_csv_round_trip (__main__.TestFullRange.test_csv_round_trip) ... ok
+test_known_values (__main__.TestFullRange.test_known_values) ... ok
+test_matches_sieve_on_full_range (__main__.TestFullRange.test_matches_sieve_on_full_range) ... ok
+test_strictly_increasing_no_duplicates (__main__.TestFullRange.test_strictly_increasing_no_duplicates) ... ok
+test_summary_text (__main__.TestFullRange.test_summary_text) ... ok
+test_sample_points (__main__.TestSampling.test_sample_points) ... ok
+test_boundaries_0_to_7 (__main__.TestSmallInputs.test_boundaries_0_to_7) ... ok
+test_composites_25_and_35_excluded (__main__.TestSmallInputs.test_composites_25_and_35_excluded) ... ok
+test_matches_sieve_0_to_10000 (__main__.TestSmallInputs.test_matches_sieve_0_to_10000) ... ok
+test_small_lists_strictly_increasing (__main__.TestSmallInputs.test_small_lists_strictly_increasing) ... ok
+test_negative_returns_empty (__main__.TestValidation.test_negative_returns_empty) ... ok
+test_type_errors (__main__.TestValidation.test_type_errors) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 66.162s
+
+OK
+
+Tests executed: 15
+Passed: 15
+Failed: 0

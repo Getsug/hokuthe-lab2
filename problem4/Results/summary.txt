@@ -1,0 +1,9 @@
+pi(5,000) = 669
+pi(5,000)/(5,001) x 100 = 13.3773%
+100/ln(5,000) = 11.7410%
+pi(5,000,000) = 348,513
+pi(5,000,000)/(5,000,001) x 100 = 6.9703%
+100/ln(5,000,000) = 6.4830%
+Total primes found up to 5,000,000: 348,513
+Prime-enumeration time: 47.759 s
+Total processing time (enumeration, checkpoints, CSV, graph; excludes summary writing): 57.713 s
