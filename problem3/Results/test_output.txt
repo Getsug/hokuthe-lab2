@@ -1,0 +1,30 @@
+test_four_draws (__main__.CountingLogic.test_four_draws) ... ok
+test_minimal_intervals (__main__.CountingLogic.test_minimal_intervals) ... ok
+test_randint_receives_interval_bounds (__main__.CountingLogic.test_randint_receives_interval_bounds) ... ok
+test_sequence_exhaustion_raises (__main__.CountingLogic.test_sequence_exhaustion_raises) ... ok
+test_single_prime_multiple_trials (__main__.CountingLogic.test_single_prime_multiple_trials) ... ok
+test_two_trials_sum (__main__.CountingLogic.test_two_trials_sum) ... ok
+test_check_does_not_consume_rng (__main__.IntervalPrimeCheck.test_check_does_not_consume_rng) ... ok
+test_prime_free_intervals_raise_without_using_rng (__main__.IntervalPrimeCheck.test_prime_free_intervals_raise_without_using_rng) ... ok
+test_prime_only_at_hi_passes (__main__.IntervalPrimeCheck.test_prime_only_at_hi_passes) ... ok
+test_single_composite_value_raises (__main__.IntervalPrimeCheck.test_single_composite_value_raises) ... ok
+test_single_prime_value_average_exactly_one (__main__.IntervalPrimeCheck.test_single_prime_value_average_exactly_one) ... ok
+test_creates_dir_writes_and_overwrites (__main__.OutputFile.test_creates_dir_writes_and_overwrites) ... ok
+test_theory_uses_actual_midpoint (__main__.OutputFile.test_theory_uses_actual_midpoint) ... ok
+test_other_working_directories (__main__.PathIndependence.test_other_working_directories) ... ok
+test_same_seed_same_result_run_a (__main__.Reproducibility.test_same_seed_same_result_run_a) ... ok
+test_same_seed_same_result_small (__main__.Reproducibility.test_same_seed_same_result_small) ... ok
+test_is_prime_is_problem2_object (__main__.Reuse.test_is_prime_is_problem2_object) ... ok
+test_run_a_completes_1000_searches (__main__.RunCompletion.test_run_a_completes_1000_searches) ... ok
+test_run_b_completes_250_searches (__main__.RunCompletion.test_run_b_completes_250_searches) ... ok
+test_bad_rng_type (__main__.Validation.test_bad_rng_type) ... ok
+test_invalid_input_does_not_use_rng (__main__.Validation.test_invalid_input_does_not_use_rng) ... ok
+test_rng_subclass_accepted (__main__.Validation.test_rng_subclass_accepted) ... ok
+test_type_checked_before_value (__main__.Validation.test_type_checked_before_value) ... ok
+test_type_errors (__main__.Validation.test_type_errors) ... ok
+test_value_errors (__main__.Validation.test_value_errors) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 32.127s
+
+OK

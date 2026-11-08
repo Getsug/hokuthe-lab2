@@ -1,0 +1,3 @@
+Run A: lo=5,000,000 hi=6,000,000 trials=1000 seed=12345 | empirical=15.21 | theoretical=15.52 | time=0.210 s
+Run B: lo=500,000,000,000 hi=500,001,000,000 trials=250 seed=12345 | empirical=28.18 | theoretical=26.94 | time=30.512 s
+Total time: 30.722 s
